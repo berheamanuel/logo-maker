@@ -61,7 +61,7 @@ function setShape(response) {
 // Create a function to write svg file
 function writeToFile(data) {
 
-    const filename = "./example/logo.svg";
+    const filename = "./example/rectangle.svg";
     const setSVG = setShape(data);
 
     fs.writeFile(filename, setSVG, function (err) {
